@@ -1,28 +1,60 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Headerimage/>
+    <Introtext/>
+    <Articles/>
+    <Map/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Headerimage from './components/headerimage.vue'
+import Introtext from './components/introtext.vue'
+import Articles from  './components/articles.vue'
+import Footer from './components/footer.vue'
+import Map from './components/map'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Headerimage,
+    Introtext,
+    Articles,
+    Footer,
+    Map,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300;500&display=swap');
+
+  #app {
+    font-family: 'poppins', 'open-sans', sans-serif, Helvetica, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+  }
+
+  h1 {
+    font-size: 72px;
+    font-weight: 500;
+    color: white;
+  }
+
+  h3 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 17px;
+    font-weight: 300;
+  }
+
 </style>
