@@ -12,7 +12,7 @@
                 </p>
             </div>
         </div>
-        <div class="wrapper" style="margin: 200px 0 150px 0">
+        <div class="wrapper" id="bot-wrapper">
             <div class="wrapper-text">    
                 <h3>Timebestillinger</h3>
                 <p>It is a long established fact that a reader will be distracted by the readable 
@@ -22,7 +22,7 @@
                 </p>
             </div>
             <div class="wrapper-image">
-                <img class="image" src="../assets/article2.jpeg" alt="">
+                <img class="image" src="../assets/article3.jpeg" alt="">
             </div>
         </div>
     </div>
@@ -46,6 +46,10 @@ export default {
         justify-content: center;
     }
 
+    #bot-wrapper {
+        margin: 200px 0 150px 0;
+    }
+
     .wrapper-text {
         display: flex;
         align-items: center;
@@ -61,6 +65,24 @@ export default {
     .image {
         max-height: 100%;
         max-width: 100%;
-        
     }
+
+    @media only screen and (max-width: 700px) {
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .wrapper-text {
+            width: 70vw;
+        }
+
+        .wrapper-image {
+            width: 70vw;
+        }
+
+        #bot-wrapper {
+            margin: 100px 0 150px 0;
+        }
+     }
 </style>

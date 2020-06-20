@@ -57,4 +57,15 @@ export default {
     font-weight: 300;
   }
 
+  @media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 50px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+    }
+  }
+
 </style>
