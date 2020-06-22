@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="wrapper">
+        <div class="wrapper" id="top-wrapper">
             <div class="wrapper-image">    
                 <img class="image" src="../assets/article2.jpeg" alt="">
             </div>
@@ -12,6 +12,7 @@
                 </p>
             </div>
         </div>
+        <div class="border"/>
         <div class="wrapper" id="bot-wrapper">
             <div class="wrapper-text">    
                 <h3>Timebestillinger</h3>
@@ -43,11 +44,11 @@ export default {
     .wrapper {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     #bot-wrapper {
-        margin: 200px 0 150px 0;
+        margin: 0 0 150px 0;
     }
 
     .wrapper-text {
@@ -55,16 +56,26 @@ export default {
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        width: 30vw;
+        width: 40vw;
     }
     .wrapper-image {
-        width: 30vw;
+        width: 32vw;
         margin: 0 40px;
+        display: flex;
+        align-items: center;
     }
 
     .image {
         max-height: 100%;
         max-width: 100%;
+    }
+
+    .border {
+        border-bottom: 1.5px pink solid;
+        border-radius: 2px;
+        border-width: 70%;
+        width: 70vw;
+        margin: 125px auto;
     }
 
     @media only screen and (max-width: 700px) {
@@ -83,6 +94,20 @@ export default {
 
         #bot-wrapper {
             margin: 100px 0 150px 0;
+        }
+     }
+
+     @media only screen and (max-width: 700px) {
+
+        #bot-wrapper {
+            margin: 100px 0 100px 0;
+        }
+     }
+
+     @media only screen and (max-width: 500px) {
+
+        #bot-wrapper {
+            margin: 100px 0 50px 0;
         }
      }
 </style>

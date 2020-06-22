@@ -38,17 +38,20 @@ export default {
     margin: 0;
     padding: 0;
     line-height: 30px;
+    overflow: auto;
   }
 
   h1 {
-    font-size: 72px;
+    font-size: 4.4em;
     font-weight: 500;
+    line-height: 90px;
     color: white;
   }
 
   h3 {
     font-size: 38px;
     font-weight: 500;
+    line-height: 50px;
     margin-bottom: 30px;
   }
 
@@ -57,14 +60,48 @@ export default {
     font-weight: 300;
   }
 
-  @media only screen and (max-width: 700px) {
-  h1 {
-    font-size: 50px;
+  @media only screen and (max-width: 900px) {
+    h1 {
+      font-size: 60px;
+      line-height: 75px;
+      }
+    h3 {
+      font-size: 36px;
     }
   }
+
+  @media only screen and (max-width: 700px) {
+    h1 {
+      font-size: 50px;
+      line-height: 70px;
+    }
+    h3 {
+      font-size: 36px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    h1 {
+      font-size: 43px;
+      line-height: 53px;
+    }
+
+    h3 {
+      font-size: 34px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
   @media only screen and (max-width: 400px) {
-  h1 {
-    font-size: 30px;
+    h1 {
+      font-size: 40px;
+      padding: 0 10px;
+    }
+    h3 {
+      font-size: 32px;
     }
   }
 
