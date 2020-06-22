@@ -1,6 +1,6 @@
 <template>
   <div class="header-container">
-    <img id="headline-image" src="../assets/forest2.jpeg" />
+    <img id="headline-image" src="https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
     <h1 id='headline'>Hudlegekontoret I Larvik</h1>
   </div>
 </template>
