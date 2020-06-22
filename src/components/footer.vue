@@ -1,7 +1,8 @@
 <template>
     <div class="footer">
-        <p>Georg Skuggedal</p>
-        <p>Adresse og telefonnummer</p>
+        <p>Hudlege Nada Rakovan</p>
+        <p>33 18 15 12</p>
+        <p>Sigurds gate 4, 3256 Larvik</p>
     </div>
 </template>
 
@@ -16,13 +17,10 @@ export default {
     .footer {
         width: 100%;
         height: 180px;
+        padding: 20px 0 0 0;
         background-color: #f6b8b6;
         color: white;
         font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
 
 </style>
