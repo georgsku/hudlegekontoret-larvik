@@ -1,5 +1,6 @@
 <template>
-  <div class="header-image">
+  <div class="header-container">
+    <img id="headline-image" src="../assets/forest2.jpeg" />
     <h1 id='headline'>Hudlegekontoret I Larvik</h1>
   </div>
 </template>
@@ -11,23 +12,27 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .header-image {
-   background-image: url('../assets/forest2.jpeg');
-   background-position: center;
-   filter: brightness(80%);
-   height: 70vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
-   margin-bottom: 80px;
-   padding: 0 40px;
+  .header-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  #headline-image {
+    filter:brightness(80%);
+    background-position: center center;
   }
 
   #headline {
-    margin-top: 100px;
+    position: absolute;
   }
 
   @media only screen and (max-width: 700px) {
@@ -36,7 +41,6 @@ export default {
       }
     
     #headline {
-      margin-top: 50px;
     }
   }
 

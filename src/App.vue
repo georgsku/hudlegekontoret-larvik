@@ -3,6 +3,7 @@
     <Headerimage/>
     <Introtext/>
     <Articles/>
+    <Introtext/>
     <Map/>
     <Footer/>
   </div>

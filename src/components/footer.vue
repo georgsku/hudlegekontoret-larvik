@@ -16,7 +16,7 @@ export default {
     .footer {
         width: 100%;
         height: 180px;
-        background-color: pink;
+        background-color: #f6b8b6;
         color: white;
         font-size: 20px;
         display: flex;

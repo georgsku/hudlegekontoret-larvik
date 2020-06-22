@@ -2,7 +2,7 @@
     <div class="container">
         <div class="wrapper" id="top-wrapper">
             <div class="wrapper-image">    
-                <img class="image" src="../assets/article2.jpeg" alt="">
+                <img class="image" src="../assets/article4.jpeg" alt="">
             </div>
             <div class="wrapper-text">    
                 <h3>Åpningstid</h3>
@@ -23,7 +23,7 @@
                 </p>
             </div>
             <div class="wrapper-image">
-                <img class="image" src="../assets/article3.jpeg" alt="">
+                <img class="image" src="../assets/article5.jpeg" alt="">
             </div>
         </div>
     </div>
@@ -71,7 +71,7 @@ export default {
     }
 
     .border {
-        border-bottom: 1.5px pink solid;
+        border-bottom: 1.5px #f6b8b6 solid;
         border-radius: 2px;
         border-width: 70%;
         width: 70vw;
