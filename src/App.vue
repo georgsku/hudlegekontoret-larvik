@@ -43,7 +43,7 @@ export default {
   }
 
   h1 {
-    font-size: 4.4em;
+    font-size: 5em;
     font-weight: 500;
     line-height: 90px;
     color: white;
@@ -57,7 +57,7 @@ export default {
   }
 
   p {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
   }
 

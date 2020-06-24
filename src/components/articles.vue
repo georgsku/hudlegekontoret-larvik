@@ -1,29 +1,46 @@
 <template>
     <div class="container">
         <div class="wrapper" id="top-wrapper">
-            <div class="wrapper-image">    
-                <img class="image" src="../assets/article4.jpeg" alt="">
-            </div>
-            <div class="wrapper-text">    
-                <h3>Åpningstid</h3>
-                <p> vi har åpent fra:</p>
-                <p> kl 09:00 - 1600 man - fre. <br> It is a long established fact that a reader will be distracted by the readable 
-                    content of a page when looking at its layout
-                </p>
-            </div>
-        </div>
-        <div class="border"/>
-        <div class="wrapper" id="bot-wrapper">
             <div class="wrapper-text">    
                 <h3>Timebestillinger</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable 
-                    content of a page when looking at its layout. The point of using Lorem Ipsum is 
-                    that it has a more-or-less normal distribution of letters, as opposed to using 
-                    'Content here, content here', making it look like readable English.
+                <p> 
+                    Kontoret har driftsavtale med Helse Sør-Øst RHF og krever derfor henvisning fra lege for time hos spesialist. <br>
+                    Alle tidligere pasienter med nye problemstillinger må også ha henvisning fra fastlege.<br>
+                    Henvisninger vurderes av hudlege før timeavtale settes opp.
+                    Sørg for at riktig postadresse og mobiltelefonnummer er påført henvisning. Det er henvisende lege sitt ansvar å beskrive ditt problem, slik at det er mulig å prioritere din henvisning riktig. </p>
+                <p> 
+                    <strong>Det er stor pågang av henvisninger.</strong> <br>
+                    Ventetiden varierer og kan være opptil 8 mnd. 
+                </p>
+                <p> 
+                    Diagnoser som f.eks. Føflekkreft prioriteres høyt.
+                    Rene kosmetiske problemstillinger prioriteres ikke.
+                    Vi har ikke laserbehandling.
+                </p>
+                <p> 
+                    <strong>Forverring av problem i påvente av timen:
+                    Ta kontakt med din fastlege.</strong>
                 </p>
             </div>
             <div class="wrapper-image">
                 <img class="image" src="../assets/article6.jpeg" alt="">
+            </div>
+        </div>
+        <div class="border"/>
+        <div class="wrapper" id="bot-wrapper">
+            <div class="wrapper-image">    
+                <img class="image" src="../assets/article4.jpeg" alt="">
+            </div>
+            <div class="wrapper-text">    
+                <h3>Åpningstider</h3>
+                <p>Mandag 8:00 - 16:30 <br> 
+                Tirsdag 8:00 - 16:30 <br> 
+                Onsdag 8:00 - 16:30 <br> 
+                Torsdag 8:00 - 16:30 <br> 
+                Fredag 8:00 - 16:30 <br> 
+                </p>
+                <p>Hudlegen er ikke tilstede i hele klinikkens åpningstider.</p>
+                <p>Vi har stengt i forbindelse med jul og påske, og alle røde dager.</p>
             </div>
         </div>
     </div>

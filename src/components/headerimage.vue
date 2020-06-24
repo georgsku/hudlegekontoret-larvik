@@ -1,7 +1,7 @@
 <template>
   <div class="header-container">
-    <img id="headline-image" src="https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-    <h1 id='headline'>Hudlegekontoret I Larvik</h1>
+    <img id="headline-image" src="https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+    <h1 id='headline'>Hudlegekontoret i Larvik</h1>
   </div>
 </template>
 
@@ -27,7 +27,7 @@ export default {
   }
 
   #headline-image {
-    filter:brightness(80%);
+    filter:brightness(95%);
     background-position: center center;
   }
 
