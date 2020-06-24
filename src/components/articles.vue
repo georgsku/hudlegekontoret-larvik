@@ -4,16 +4,17 @@
             <div class="wrapper-text">    
                 <h3>Timebestillinger</h3>
                 <p> 
-                    Kontoret har driftsavtale med Helse Sør-Øst RHF og krever derfor henvisning fra lege for time hos spesialist. <br>
-                    Alle tidligere pasienter med nye problemstillinger må også ha henvisning fra fastlege.<br>
+                    Kontoret har driftsavtale med Helse Sør-Øst RHF og krever derfor henvisning fra lege for å få time hos oss.<br>
+                    Alle tidligere pasienter med nye problemstillinger må også ha henvisning fra lege.<br>
                     Henvisninger vurderes av hudlege før timeavtale settes opp.
-                    Sørg for at riktig postadresse og mobiltelefonnummer er påført henvisning. Det er henvisende lege sitt ansvar å beskrive ditt problem, slik at det er mulig å prioritere din henvisning riktig. </p>
+                    Sørg for at riktig postadresse og mobiltelefonnummer er påført henvisning. 
+                    Det er henvisende lege sitt ansvar å beskrive ditt problem, slik at det er mulig å prioritere din henvisning riktig. </p>
                 <p> 
                     <strong>Det er stor pågang av henvisninger.</strong> <br>
                     Ventetiden varierer og kan være opptil 8 mnd. 
                 </p>
                 <p> 
-                    Diagnoser som f.eks. Føflekkreft prioriteres høyt.
+                    Diagnoser som f.eks. føflekkreft prioriteres høyt. <br>
                     Rene kosmetiske problemstillinger prioriteres ikke.
                     Vi har ikke laserbehandling.
                 </p>
@@ -41,6 +42,24 @@
                 </p>
                 <p>Hudlegen er ikke tilstede i hele klinikkens åpningstider.</p>
                 <p>Vi har stengt i forbindelse med jul og påske, og alle røde dager.</p>
+            </div>
+        </div>
+        <div class="border"/>
+        <div class="wrapper" id="bot-wrapper">
+            <div class="wrapper-text">    
+                <h3>Telefontid</h3>
+                <p>
+                    Mandag - Fredag: 9:00 - 11:00
+                </p>
+                <p>
+                    Vi har stor pågang av pasienter og det kan være vanskelig å omme gjennom på telefon<br> 
+                </p>
+                <p>
+                    Vårt tif nr er: 33 19 15 12.
+                </p>
+            </div>
+            <div class="wrapper-image">    
+                <img class="image" src="../assets/article4.jpeg" alt="">
             </div>
         </div>
         <div class="border"/>
