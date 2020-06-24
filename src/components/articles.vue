@@ -23,7 +23,7 @@
                 </p>
             </div>
             <div class="wrapper-image">
-                <img class="image" src="../assets/article5.jpeg" alt="">
+                <img class="image" src="../assets/article6.jpeg" alt="">
             </div>
         </div>
     </div>
