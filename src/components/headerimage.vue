@@ -19,20 +19,18 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     margin-bottom: 80px;
     position: relative;
     overflow: hidden;
-    
   }
 
   #headline-image {
-    filter:brightness(95%);
-    background-position: center center;
+    background-position: center;
   }
 
   #headline {
     position: absolute;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.3);  
   }
 
   @media only screen and (max-width: 700px) {

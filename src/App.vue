@@ -3,7 +3,8 @@
     <Headerimage/>
     <Introtext/>
     <Articles/>
-    <Introtext/>
+    <Articles2/>
+    <Payment/>
     <Map/>
     <Footer/>
   </div>
@@ -11,8 +12,10 @@
 
 <script>
 import Headerimage from './components/headerimage.vue'
+import Articles2 from  './components/articles2.vue'
 import Introtext from './components/introtext.vue'
 import Articles from  './components/articles.vue'
+import Payment from './components/payment.vue'
 import Footer from './components/footer.vue'
 import Map from './components/map'
 
@@ -21,7 +24,9 @@ export default {
   components: {
     Headerimage,
     Introtext,
+    Articles2,
     Articles,
+    Payment,
     Footer,
     Map,
   }
