@@ -30,11 +30,12 @@ export default {
     .wrapper {
         display: flex;
         justify-content: center;
+        padding-top: 50px;
     }
     
     .introtext {
         width: 50vw;
-        margin-bottom: 150px;
+        margin-bottom: 125px;
     }
 
     @media only screen and (max-width: 900px) {

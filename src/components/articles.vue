@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="wrapper" id="top-wrapper">
+        <div class="wrapper" >
             <div class="wrapper-text">    
                 <h3>Timebestillinger</h3>
                 <p> 
@@ -28,10 +28,7 @@
             </div>
         </div>
         <div class="border"/>
-        <div class="wrapper" id="bot-wrapper">
-            <div class="wrapper-image">    
-                <img class="image" src="../assets/article4.jpeg" alt="">
-            </div>
+        <div class="wrapper" >
             <div class="wrapper-text">    
                 <h3>Åpningstider</h3>
                 <p>Mandag 8:00 - 16:30 <br> 
@@ -43,9 +40,6 @@
                 <p>Hudlegen er ikke tilstede i hele klinikkens åpningstider.</p>
                 <p>Vi har stengt i forbindelse med jul og påske, og alle røde dager.</p>
             </div>
-        </div>
-        <div class="border"/>
-        <div class="wrapper" id="bot-wrapper">
             <div class="wrapper-text">    
                 <h3>Telefontid</h3>
                 <p>
@@ -58,11 +52,39 @@
                     Vårt tif nr er: 33 19 15 12.
                 </p>
             </div>
-            <div class="wrapper-image">    
-                <img class="image" src="../assets/article4.jpeg" alt="">
+        </div>
+        <div class="border"/>
+        <div class="wrapper">
+            <div class="wrapper-text">    
+                <h3>Pasienter til lysbehandling</h3>
+                <p> 
+                    Alle lyspasienter må ha henvisning fra lege.
+                </p>
+                <p> 
+                    Det koster kr. 56,- pr behandling inntil frikort er oppnåd<br>
+                    Lyspasienter tas imot i kontorets åpningstider. <br>
+                    Vi holder stengt for lysbehandling i lunsjen (kl 11:30 - 12:00) <br>
+                    OBS: du må være her senest 15 min før stemgetid
+                </p>
+            </div>
+            <div class="wrapper-image">
+                <img class="image" src="../assets/lysbehandling.jpeg" alt="">
             </div>
         </div>
         <div class="border"/>
+        <div class="wrapper" id="bot-wrapper">
+            <div class="wrapper-image">    
+                <img class="image" src="../assets/article6.jpeg" alt="">
+            </div>
+            <div class="wrapper-text">    
+                <h3>Avbestilling av time</h3>
+                <p>
+                    Vær oppmerksom på at avbestilling må gjøres senest 24 timer før avtalt time 
+                    på tlf 33 18 15 12 mellom kl 9:00 og 11:00 eller på mailadr post@rakovan.nhn.no 
+                    før kl 15:00 to virkedager før timeavtalen
+                </p>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -85,7 +107,7 @@ export default {
     }
 
     #bot-wrapper {
-        margin: 0 0 150px 0;
+        margin: 0 0 50px 0;
     }
 
     .wrapper-text {
@@ -129,22 +151,15 @@ export default {
             width: 70vw;
         }
 
-        #bot-wrapper {
-            margin: 100px 0 150px 0;
-        }
-     }
-
-     @media only screen and (max-width: 700px) {
-
-        #bot-wrapper {
-            margin: 100px 0 100px 0;
-        }
+        .border {
+        margin: 80px auto;
+    }
      }
 
      @media only screen and (max-width: 500px) {
 
-        #bot-wrapper {
-            margin: 100px 0 50px 0;
+        .border {
+            margin: 60px auto;
         }
      }
 </style>

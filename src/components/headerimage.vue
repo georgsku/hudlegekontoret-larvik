@@ -14,7 +14,8 @@ export default {
 
 <style scoped>
   .header-container {
-    height: 70vh;
+    height: 70vmin;
+    min-height: 300px;
     width: 100%;
     display: flex;
     align-items: center;

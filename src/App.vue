@@ -3,7 +3,6 @@
     <Headerimage/>
     <Introtext/>
     <Articles/>
-    <Articles2/>
     <Payment/>
     <Map/>
     <Footer/>
@@ -12,7 +11,6 @@
 
 <script>
 import Headerimage from './components/headerimage.vue'
-import Articles2 from  './components/articles2.vue'
 import Introtext from './components/introtext.vue'
 import Articles from  './components/articles.vue'
 import Payment from './components/payment.vue'
@@ -24,7 +22,6 @@ export default {
   components: {
     Headerimage,
     Introtext,
-    Articles2,
     Articles,
     Payment,
     Footer,
@@ -48,7 +45,7 @@ export default {
   }
 
   h1 {
-    font-size: 5em;
+    font-size: 10vmin;
     font-weight: 500;
     line-height: 90px;
     color: white;
@@ -68,7 +65,6 @@ export default {
 
   @media only screen and (max-width: 900px) {
     h1 {
-      font-size: 60px;
       line-height: 75px;
       }
     h3 {
@@ -78,7 +74,6 @@ export default {
 
   @media only screen and (max-width: 700px) {
     h1 {
-      font-size: 50px;
       line-height: 70px;
     }
     h3 {
@@ -88,7 +83,6 @@ export default {
 
   @media only screen and (max-width: 500px) {
     h1 {
-      font-size: 43px;
       line-height: 53px;
     }
 
@@ -103,7 +97,6 @@ export default {
 
   @media only screen and (max-width: 400px) {
     h1 {
-      font-size: 40px;
       padding: 0 10px;
     }
     h3 {
