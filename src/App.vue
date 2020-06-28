@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Navbar/>
     <Headerimage/>
     <Introtext/>
     <Articles/>
@@ -15,6 +16,7 @@ import Introtext from './components/introtext.vue'
 import Articles from  './components/articles.vue'
 import Payment from './components/payment.vue'
 import Footer from './components/footer.vue'
+import Navbar from './components/navbar.vue'
 import Map from './components/map'
 
 export default {
@@ -24,6 +26,7 @@ export default {
     Introtext,
     Articles,
     Payment,
+    Navbar,
     Footer,
     Map,
   }
@@ -63,6 +66,10 @@ export default {
     font-weight: 300;
   }
 
+  .margin-100 {
+    margin: 100px 0;
+  }
+
   @media only screen and (max-width: 900px) {
     h1 {
       line-height: 75px;
@@ -79,6 +86,9 @@ export default {
     h3 {
       font-size: 36px;
     }
+    .margin-100 {
+      margin: 70px 0;
+    }
   }
 
   @media only screen and (max-width: 500px) {
@@ -92,6 +102,10 @@ export default {
 
     p {
       font-size: 16px;
+    }
+
+    .margin-100 {
+      margin: 50px 0;
     }
   }
 

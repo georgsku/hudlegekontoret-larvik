@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper margin-100" id="betaling">
         <div class="introtext">
             <h3>Betaling</h3>
             <p>
@@ -8,12 +8,12 @@
                 Frikort gjelder.
             </p>
             <p>
-                Materiell- og prøvekostander kommer i tillegg. <br>
+                Materiell- og prøvekostnader kommer i tillegg. <br>
                 Gebyr for ikke benyttet time, gjelder også barn og personer med frikort.
             </p>
             <p>
                 Vennligst unngå betaling med kontanter. Betaling med kort er ønskelig. <br>
-                Vi har Bankterminal, men tar ikke kreditkort. <br>
+                Vi har bankterminal, men tar ikke kredittkort. <br>
                 Girobetaling belastes med gebyr og administreres av Melin Medical.
             </p>
         </div>
@@ -30,12 +30,10 @@ export default {
     .wrapper {
         display: flex;
         justify-content: center;
-        padding-top: 50px;
     }
     
     .introtext {
         width: 50vw;
-        margin-bottom: 125px;
     }
 
     @media only screen and (max-width: 900px) {

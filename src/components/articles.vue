@@ -1,10 +1,10 @@
 <template>
     <div class="container">
-        <div class="wrapper" >
+        <div class="wrapper" id="timebestillinger">
             <div class="wrapper-text">    
                 <h3>Timebestillinger</h3>
                 <p> 
-                    Kontoret har driftsavtale med Helse Sør-Øst RHF og krever derfor henvisning fra lege for å få time hos oss.<br>
+                    Kontoret har driftsavtale med Helse Sør-Øst RHF og det kreves derfor henvisning fra lege for å få time hos oss.<br>
                     Alle tidligere pasienter med nye problemstillinger må også ha henvisning fra lege.<br>
                     Henvisninger vurderes av hudlege før timeavtale settes opp.
                     Sørg for at riktig postadresse og mobiltelefonnummer er påført henvisning. 
@@ -14,7 +14,7 @@
                     Ventetiden varierer og kan være opptil 8 mnd. 
                 </p>
                 <p> 
-                    Diagnoser som f.eks. føflekkreft prioriteres høyt. <br>
+                    Enkelte diagnoser prioriteres høyt. <br>
                     Rene kosmetiske problemstillinger prioriteres ikke.
                     Vi har ikke laserbehandling.
                 </p>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="border"/>
-        <div class="wrapper" >
+        <div class="wrapper" id="åpningstimer">
             <div class="wrapper-text">    
                 <h3>Åpningstider</h3>
                 <p>Mandag 8:00 - 16:30 <br> 
@@ -37,34 +37,34 @@
                 Torsdag 8:00 - 16:00 <br> 
                 Fredag 8:00 - 14:00 <br> 
                 </p>
-                <p>Hudlegen er ikke tilstede i hele klinikkens åpningstider.</p>
+                <p>Hudlegen er ikke tilstede i klinikkens hele åpningstid.</p>
                 <p>Vi har stengt i forbindelse med jul og påske, og alle røde dager.</p>
             </div>
             <div class="wrapper-text">    
                 <h3>Telefontid</h3>
                 <p>
-                    Mandag - Fredag: 9:00 - 11:00
+                    Mandag - Fredag<br> 9:00 - 11:00
                 </p>
                 <p>
-                    Vi har stor pågang av pasienter og det kan være vanskelig å omme gjennom på telefon<br> 
+                    Vi har stor pågang av pasienter og det kan være vanskelig å komme gjennom på telefon<br> 
                 </p>
                 <p>
-                    Vårt tif nr er: 33 19 15 12.
+                    Vårt tlf nr er: 33 18 15 12.
                 </p>
             </div>
         </div>
         <div class="border"/>
-        <div class="wrapper">
+        <div class="wrapper" id="lysbehandling">
             <div class="wrapper-text">    
-                <h3>Pasienter til lysbehandling</h3>
+                <h3>Lysbehandling</h3>
                 <p> 
-                    Alle lyspasienter må ha henvisning fra lege.
+                    Alle pasienter til lysbehandling må ha henvisning fra lege.
                 </p>
                 <p> 
-                    Det koster kr. 56,- pr behandling inntil frikort er oppnåd<br>
-                    Lyspasienter tas imot i kontorets åpningstider. <br>
-                    Vi holder stengt for lysbehandling i lunsjen (kl 11:30 - 12:00) <br>
-                    OBS: du må være her senest 15 min før stemgetid
+                    Det koster kr. 56,- pr behandling inntil frikort er oppnåd.<br>
+                    Pasienter til lysbehandling tas imot i kontorets åpningstid. <br>
+                    Vi holder stengt for lysbehandling i lunsjen (kl 11:30 - 12:00). <br>
+                    <strong>OBS:</strong> oppmøte senest 15 min før stengetid
                 </p>
             </div>
             <div class="wrapper-image">
@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="border"/>
-        <div class="wrapper" id="bot-wrapper">
+        <div class="wrapper" id="avbestilling" >
             <div class="wrapper-image">    
                 <img class="image" src="../assets/article6.jpeg" alt="">
             </div>
@@ -80,7 +80,7 @@
                 <h3>Avbestilling av time</h3>
                 <p>
                     Vær oppmerksom på at avbestilling må gjøres senest 24 timer før avtalt time 
-                    på tlf 33 18 15 12 mellom kl 9:00 og 11:00 eller på mailadr post@rakovan.nhn.no 
+                    på tlf 33 18 15 12 mellom kl 9:00 og 11:00 eller på mail; post@rakovan.nhn.no 
                     før kl 15:00 to virkedager før timeavtalen
                 </p>
             </div>

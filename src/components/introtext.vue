@@ -1,10 +1,10 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper margin-100" id="introtext">
         <div class="introtext">
             <h3>Om oss</h3>
-            <p>Hudlegekontoret drives av hudlege Nada Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
+            <p>Hudlegekontoret drives av hudlege Nad´a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
                 Vi utreder og behandler alle slags hudsykdommer. 
-                Praksisen har blant annet lysbehandling (smalspektret UVB, - TL01) for helkropp, hender, 
+                Praksisen har blant annet lysbehandling (smalspektret UVB - TL01) for helkropp, hender, 
                 føtter og fotodynamisk behandling (PDT).
             </p>
             <p>
@@ -39,7 +39,6 @@ export default {
     
     .introtext {
         width: 50vw;
-        margin-bottom: 100px;
     }
 
     .svg {

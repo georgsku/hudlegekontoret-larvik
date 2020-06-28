@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
-        <p>Hudlege Nada Rakovan</p>
-        <p>33 18 15 12</p>
+        <p>Dr. Nad´a Rakovan ph.d</p>
+        <p>Tlf: 33 18 15 12</p>
         <p>Sigurds gate 4, 3256 Larvik</p>
     </div>
 </template>
