@@ -4,12 +4,12 @@
             <h3>Betaling</h3>
             <p>
                 Egenandel er kr. 351,-<br>
-                Barn under 16 år ingen egenandel.<br>
+                Barn under 16 år betaler ingen egenandel.<br>
                 Frikort gjelder.
             </p>
             <p>
                 Materiell- og prøvekostnader kommer i tillegg. <br>
-                Gebyr for ikke benyttet time, gjelder også barn og personer med frikort.
+                Gebyr for ikke benyttet time gjelder også barn og personer med frikort.
             </p>
             <p>
                 Vennligst unngå betaling med kontanter. Betaling med kort er ønskelig. <br>

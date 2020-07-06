@@ -58,7 +58,7 @@
             <div class="wrapper-text">    
                 <h3>Lysbehandling</h3>
                 <p> 
-                    Alle pasienter til lysbehandling må ha henvisning fra lege.
+                    Alle pasienter som skal ha lysbehandling må ha henvisning fra lege.
                 </p>
                 <p> 
                     Det koster kr. 56,- pr behandling inntil frikort er oppnåd.<br>
@@ -125,8 +125,8 @@ export default {
     }
 
     .image {
-        max-height: 100%;
-        max-width: 100%;
+        max-height: 80%;
+        max-width: 80%;
     }
 
     .border {
