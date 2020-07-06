@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <p>Dr. Nad´a Rakovan ph.d</p>
+        <p>Dr. Naďa Rakovan PhD</p>
         <p>Tlf: 33 18 15 12</p>
         <p>Sigurds gate 4, 3256 Larvik</p>
     </div>

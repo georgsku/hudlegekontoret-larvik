@@ -3,13 +3,7 @@
       class="navbar"
       :class="{ 'navbar--hidden': !showNavbar, 'pastHeader': pastHeader }"
     >
-        <p @click="navbarClick('introtext')">Om oss</p>
-        <p @click="navbarClick('timebestillinger')">Timebestillinger</p>
-        <p @click="navbarClick('åpningstimer')">Åpningstider</p>
-        <p @click="navbarClick('lysbehandling')">Lysbehandling</p>
-        <p @click="navbarClick('betaling')">Betaling</p>
-        <p @click="navbarClick('googlemaps')">Kart</p>
-        
+        <img class="svg" src="../assets/menu.svg" alt="" @click="openSidebar">
     </div>
 </template>
 
@@ -41,6 +35,9 @@ export default {
         },
         navbarClick(element) {
             document.getElementById(element).scrollIntoView({behavior: "smooth", block: "center",});
+        },
+        openSidebar() {
+            this.$root.$refs.sidebar.toggleSidebar();
         }
     },
     mounted () {
@@ -53,7 +50,8 @@ export default {
 </script>
 
 <style scoped>
-    
+
+
     .navbar {
         height: 60px;
         width: 100vw;
@@ -74,18 +72,12 @@ export default {
         box-shadow: 0 2px 15px rgba(71, 120, 120, 0.5);
     }
 
-    p {
-        font-size: 16px;
-        font-weight: 400;
-        margin: auto 9px;
-        color: white;
+    .svg {
+        height: 25px;
+        width: auto;
         cursor: pointer;
-        text-shadow: 0px 0px 20px rgba(0,0,0,0.3); 
+        padding: 15px 15px 0 0;
+        filter: invert(100%);
     }
-
-    p:hover {
-        opacity: 0.6;
-    }
-
 
 </style>

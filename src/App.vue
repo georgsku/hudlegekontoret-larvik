@@ -1,20 +1,24 @@
 <template>
   <div id="app">
-    <Navbar/>
+    <Navbar v-if="window.width > 700"/>
+    <Mobilenavbar v-if="window.width<=700"/>
     <Headerimage/>
     <Introtext/>
     <Articles/>
     <Payment/>
     <Map/>
     <Footer/>
+    <Sidebar/>
   </div>
 </template>
 
 <script>
+import Mobilenavbar from './components/mobilenavbar.vue'
 import Headerimage from './components/headerimage.vue'
 import Introtext from './components/introtext.vue'
 import Articles from  './components/articles.vue'
 import Payment from './components/payment.vue'
+import Sidebar from './components/sidebar.vue'
 import Footer from './components/footer.vue'
 import Navbar from './components/navbar.vue'
 import Map from './components/map'
@@ -22,14 +26,39 @@ import Map from './components/map'
 export default {
   name: 'App',
   components: {
+    Mobilenavbar,
     Headerimage,
     Introtext,
     Articles,
     Payment,
+    Sidebar,
     Navbar,
     Footer,
     Map,
-  }
+  },
+  data() {
+    return {
+      window: {
+            width: 0,
+            height: 0
+        }
+    }
+  },
+  created() {
+        window.addEventListener('resize', this.handleResize);
+        this.handleResize();
+        console.log(this.window.height," ", this.window.width)
+    },
+    destroyed() {
+        window.removeEventListener('resize', this.handleResize);
+    },
+    methods: {
+        handleResize() {
+            this.window.width = window.innerWidth;
+            this.window.height = window.innerHeight;
+        }
+    }
+  
 }
 </script>
 
@@ -50,7 +79,14 @@ export default {
   h1 {
     font-size: 10vmin;
     font-weight: 500;
-    line-height: 90px;
+    line-height: 11vmin;
+    padding: 0 20px;
+    color: white;
+  }
+
+  h2 {
+    font-size: 4vmin;
+    font-weight: 500;
     color: white;
   }
 
@@ -71,31 +107,18 @@ export default {
   }
 
   @media only screen and (max-width: 900px) {
-    h1 {
-      line-height: 75px;
-      }
-    h3 {
-      font-size: 36px;
-    }
+    
   }
 
   @media only screen and (max-width: 700px) {
-    h1 {
-      line-height: 70px;
-    }
-    h3 {
-      font-size: 36px;
-    }
+    
     .margin-100 {
       margin: 70px 0;
     }
   }
 
   @media only screen and (max-width: 500px) {
-    h1 {
-      line-height: 53px;
-    }
-
+    
     h3 {
       font-size: 34px;
     }
@@ -110,12 +133,7 @@ export default {
   }
 
   @media only screen and (max-width: 400px) {
-    h1 {
-      padding: 0 10px;
-    }
-    h3 {
-      font-size: 32px;
-    }
+    
   }
 
 </style>

@@ -2,7 +2,7 @@
   <div class="header-container">
     <img id="headline-image" src="https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
     <h1 id='headline'>Hudlegekontoret i Larvik</h1>
-    <h2 id="subHeadline">Dr. Nad´a Rakovan ph.d</h2>
+    <h2 id="subHeadline">Dr. Naďa Rakovan PhD</h2>
   </div>
 </template>
 
