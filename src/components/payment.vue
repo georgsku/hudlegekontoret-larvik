@@ -26,6 +26,7 @@ export default {
 }
 </script>
 
+
 <style scoped>
     .wrapper {
         display: flex;
@@ -36,23 +37,21 @@ export default {
         width: 50vw;
     }
 
+
     @media only screen and (max-width: 900px) {
         .introtext {
             width: 60vw;
-            margin-bottom: 125px;
         }
     }
 
     @media only screen and (max-width: 700px) {
         .introtext {
             width: 70vw;
-            margin-bottom: 100px;
         }
     }
     @media only screen and (max-width: 500px) {
         .introtext {
             width: 90vw;
-            margin-bottom: 75px;
         }
     }
 

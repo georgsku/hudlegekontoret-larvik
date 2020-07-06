@@ -85,13 +85,13 @@ export default {
   }
 
   h2 {
-    font-size: 4vmin;
+    font-size: 30px;
     font-weight: 500;
     color: white;
   }
 
   h3 {
-    font-size: 38px;
+    font-size: 37px;
     font-weight: 500;
     line-height: 50px;
     margin-bottom: 30px;
@@ -107,11 +107,23 @@ export default {
   }
 
   @media only screen and (max-width: 900px) {
-    
+    h3 {
+      font-size: 35px;
+    }
+    h2 {
+      font-size: 28px;
+    }
   }
 
   @media only screen and (max-width: 700px) {
     
+    h2 {
+      font-size: 26px;
+    }
+    h3 {
+      font-size: 32px;
+    }
+
     .margin-100 {
       margin: 70px 0;
     }
@@ -119,8 +131,12 @@ export default {
 
   @media only screen and (max-width: 500px) {
     
+    h2 {
+      font-size: 22px;
+    }
+
     h3 {
-      font-size: 34px;
+      font-size: 30px;
     }
 
     p {
@@ -133,7 +149,13 @@ export default {
   }
 
   @media only screen and (max-width: 400px) {
-    
+    h2 {
+      font-size: 18px;
+    }
+
+    h3 {
+      font-size: 28px;
+    }
   }
 
 </style>

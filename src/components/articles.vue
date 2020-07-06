@@ -122,11 +122,13 @@ export default {
         margin: 0 40px;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .image {
-        max-height: 80%;
-        max-width: 80%;
+        height: auto;
+        width: 100%;
+        max-width: 500px;
     }
 
     .border {
@@ -137,7 +139,7 @@ export default {
         margin: 100px auto;
     }
 
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 800px) {
         .wrapper {
             flex-direction: column;
             align-items: center;

@@ -78,6 +78,12 @@ export default {
         cursor: pointer;
         padding: 15px 15px 0 0;
         filter: invert(100%);
+        transition: all .2s ease-in-out; 
+    }
+
+    .svg:hover {
+        opacity: 0.7;
+        transform: scale(1.1);
     }
 
 </style>

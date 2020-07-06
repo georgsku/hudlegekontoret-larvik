@@ -2,7 +2,7 @@
     <div class="wrapper margin-100" id="introtext">
         <div class="introtext">
             <h3>Om oss</h3>
-            <p>Hudlegekontoret drives av hudlege Naďa Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
+            <p>Hudlegekontoret drives av hudlege Na&#271;a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
                 Vi utreder og behandler alle slags hudsykdommer. 
                 Praksisen har blant annet lysbehandling (smalspektret UVB - TL01) for helkropp, hender, 
                 føtter og fotodynamisk behandling (PDT).
@@ -48,20 +48,17 @@ export default {
     @media only screen and (max-width: 900px) {
         .introtext {
             width: 60vw;
-            margin-bottom: 125px;
         }
     }
 
     @media only screen and (max-width: 700px) {
         .introtext {
             width: 70vw;
-            margin-bottom: 100px;
         }
     }
     @media only screen and (max-width: 500px) {
         .introtext {
             width: 90vw;
-            margin-bottom: 75px;
         }
     }
 

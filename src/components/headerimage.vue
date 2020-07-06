@@ -1,8 +1,7 @@
 <template>
   <div class="header-container">
-    <img id="headline-image" src="https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
     <h1 id='headline'>Hudlegekontoret i Larvik</h1>
-    <h2 id="subHeadline">Dr. Naďa Rakovan PhD</h2>
+    <h2 id="subHeadline" v-html="'Dr. Na&#271;a Rakovan PhD'"></h2>
   </div>
 </template>
 
@@ -15,31 +14,35 @@ export default {
 
 <style scoped>
   .header-container {
+    background-image: url("https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center center;
     height: 70vmin;
     min-height: 300px;
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
     overflow: hidden;
   }
 
-  #headline-image {
-    background-position: center;
-  }
-
   #headline {
-    position: absolute;
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.3); 
-    margin-top: 0px; 
+    text-shadow: 0px 0px 25px rgba(0,0,0,0.4); 
+    margin: 40px 0 0 0;
   }
   
   #subHeadline {
-    position: absolute;
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.3); 
+    text-shadow: 0px 0px 25px rgba(0,0,0,0.4); 
     color: white; 
-    margin-top: 70px;
+    margin: 15px 0;
   }
 
+
+  @media only screen and (max-width: 825px) {
+    #headline-image {
+      width: auto;
+      height: 100%;
+    }
+    
+  }
 </style>
