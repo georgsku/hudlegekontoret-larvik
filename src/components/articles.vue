@@ -20,7 +20,7 @@
                 </p>
                 <p> 
                     <strong>Forverring av problem i påvente av timen:
-                    Ta kontakt med din fastlege.</strong>
+                    Ta kontakt med henvisende lege.</strong>
                 </p>
             </div>
             <div class="wrapper-image">
@@ -61,7 +61,7 @@
                     Alle pasienter som skal ha lysbehandling må ha henvisning fra lege.
                 </p>
                 <p> 
-                    Det koster kr. 56,- pr behandling inntil frikort er oppnåd.<br>
+                    Det koster kr. 58,- pr behandling inntil frikort er oppnåd.<br>
                     Pasienter til lysbehandling tas imot i kontorets åpningstid. <br>
                     Vi holder stengt for lysbehandling i lunsjen (kl 11:30 - 12:00). <br>
                     <strong>OBS:</strong> oppmøte senest 15 min før stengetid
