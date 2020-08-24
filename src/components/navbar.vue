@@ -55,7 +55,7 @@ export default {
     
     .navbar {
         height: 60px;
-        width: 100vw;
+        width: 100%;
         position: fixed;
         transform: translate3d(0, 0, 0);
         transition: 0.1s all ease-out;
