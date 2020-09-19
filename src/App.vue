@@ -47,7 +47,6 @@ export default {
   created() {
         window.addEventListener('resize', this.handleResize);
         this.handleResize();
-        console.log(this.window.height," ", this.window.width)
     },
     destroyed() {
         window.removeEventListener('resize', this.handleResize);
