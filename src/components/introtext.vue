@@ -1,7 +1,17 @@
 <template>
     <div class="wrapper margin-100" id="introtext">
         <div class="introtext">
-            <h3>Om oss</h3>
+            <h3>Julen 2020</h3>
+            <p>
+                Hudlegekontoret er stengt f.o.m 21.12.20.
+            </p>
+            <p>
+                Vi åpner igjen mandag 4.1.21.
+            </p>
+            <p>
+                Vi ønsker alle en riktig god jul!
+            </p>
+            <h3 class="seperate-header">Om oss</h3>
             <p>Hudlegekontoret drives av hudlege Na&#271;a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
                 Vi utreder og behandler alle slags hudsykdommer. 
                 Praksisen har blant annet lysbehandling (smalspektret UVB - TL01) for helkropp, hender, 
@@ -32,6 +42,10 @@ export default {
 </script>
 
 <style scoped>
+    .seperate-header {
+        padding-top: 50px;
+    }
+
     .wrapper {
         display: flex;
         justify-content: center;
