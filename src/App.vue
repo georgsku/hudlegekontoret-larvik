@@ -6,7 +6,6 @@
     <Introtext/>
     <Articles/>
     <Payment/>
-    <Map/>
     <Footer/>
     <Sidebar/>
   </div>
@@ -21,7 +20,6 @@ import Payment from './components/payment.vue'
 import Sidebar from './components/sidebar.vue'
 import Footer from './components/footer.vue'
 import Navbar from './components/navbar.vue'
-import Map from './components/map'
 
 export default {
   name: 'App',
@@ -34,7 +32,6 @@ export default {
     Sidebar,
     Navbar,
     Footer,
-    Map,
   },
   data() {
     return {
@@ -65,7 +62,7 @@ export default {
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300;500&display=swap');
 
   #app {
-    font-family: 'poppins', 'open-sans', sans-serif, Helvetica, Arial;
+    font-family: 'Poppins', 'open-sans', sans-serif, Helvetica, Arial;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;

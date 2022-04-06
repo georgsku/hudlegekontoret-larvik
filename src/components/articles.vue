@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <div class="border"/>
         <div class="wrapper" id="timebestillinger">
             <div class="wrapper-text">    
                 <h3>Timebestillinger</h3>
@@ -85,6 +86,7 @@
                 </p>
             </div>
         </div>
+        <div class="border"/>
     </div>
 </template>
 
@@ -101,21 +103,16 @@ export default {
     }
 
     .wrapper {
+        margin: 0 auto;
+        width: 80%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    #bot-wrapper {
-        margin: 0 0 50px 0;
+        padding: 50px 0;
     }
 
     .wrapper-text {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 40vw;
+        margin: auto;
+        width: clamp(45ch, 50%, 65ch);
     }
     .wrapper-image {
         width: 32vw;
@@ -129,6 +126,9 @@ export default {
         height: auto;
         width: 100%;
         max-width: 500px;
+        border-radius: 10px;
+        -webkit-box-shadow:4px 4px 0px 1px rgba(0,0,0,0.20); 
+        box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.20);;
     }
 
     .border {

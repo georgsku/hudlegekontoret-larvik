@@ -62,6 +62,7 @@ export default {
         z-index: 100;
         display: flex;
         justify-content: flex-end;
+        padding-right: 30px;
     }
     .navbar.navbar--hidden {
         box-shadow: none;
