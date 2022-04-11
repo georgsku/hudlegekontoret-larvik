@@ -14,7 +14,7 @@
             <p>
                 Vennligst unngå betaling med kontanter. Betaling med kort er ønskelig. <br>
                 Vi har bankterminal, men tar ikke kredittkort. <br>
-                Girobetaling belastes med gebyr og administreres av Melin Medical.
+                Girobetaling belastes med gebyr og administreres av Convene Collection.
             </p>
         </div>
     </div>
