@@ -1,12 +1,13 @@
 <template>
     <div class="wrapper margin-100" id="introtext">
         <div class="introtext">
-            <h3>Påsken 2022</h3>
+            <h3>Sommer 2022</h3>
             <p>
-                Hudlegekontoret er påskestengt <br>
-                Fra mandag 11. april <br>
-                Frem til tirsdag 19. april. <br>
-                <b>GOD PÅSKE</b>
+                Hudlegekontoret har sommerstengt f.o.m. 15. juli, <br>
+                åpner igjen 8. aug. <br>
+                Vi ønsker alle en <br>
+                <b>GOD Sommer</b>
+                
             </p>
             <h3 class="seperate-header">Om oss</h3>
             <p>Hudlegekontoret drives av hudlege Na&#271;a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              

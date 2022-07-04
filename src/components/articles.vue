@@ -62,7 +62,7 @@
                     Alle pasienter som skal ha lysbehandling må ha henvisning fra lege.
                 </p>
                 <p> 
-                    Det koster kr. 58,- pr behandling inntil frikort er oppnåd.<br>
+                    Det koster kr. 59,- pr behandling inntil frikort er oppnåd.<br>
                     Pasienter til lysbehandling tas imot i kontorets åpningstid. <br>
                     Vi holder stengt for lysbehandling i lunsjen (kl 11:30 - 12:00). <br>
                     <strong>OBS:</strong> oppmøte senest 15 min før stengetid
