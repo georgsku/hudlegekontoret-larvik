@@ -1,14 +1,6 @@
 <template>
     <div class="wrapper margin-100" id="introtext">
         <div class="introtext">
-            <h3>Sommer 2022</h3>
-            <p>
-                Hudlegekontoret har sommerstengt f.o.m. 15. juli, <br>
-                åpner igjen 8. aug. <br>
-                Vi ønsker alle en <br>
-                <b>GOD Sommer</b>
-                
-            </p>
             <h3 class="seperate-header">Om oss</h3>
             <p>Hudlegekontoret drives av hudlege Na&#271;a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
                 Vi utreder og behandler alle slags hudsykdommer. 
