@@ -3,7 +3,7 @@
         <div class="introtext">
             <h3>Betaling</h3>
             <p>
-                Egenandel er kr. 375,-<br>
+                Egenandel er kr. 386,-<br>
                 Barn under 16 år betaler ingen egenandel.<br>
                 Frikort gjelder.
             </p>

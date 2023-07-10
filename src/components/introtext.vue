@@ -1,6 +1,12 @@
 <template>
     <div class="wrapper margin-100" id="introtext">
         <div class="introtext">
+            <h3>Sommer 2023</h3>
+            <p>
+                Hudlegekontoret har sommerstengt uke 29, 30, 31 og 32. <br>
+                Vi ønsker alle en <b>GOD</b> Sommer
+                
+            </p>
             <h3 class="seperate-header">Om oss</h3>
             <p>Hudlegekontoret drives av hudlege Na&#271;a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
                 Vi utreder og behandler alle slags hudsykdommer. 
@@ -8,7 +14,7 @@
                 føtter og fotodynamisk behandling (PDT).
             </p>
             <p>
-                Hudlegekontoret ligger i Sigurdsgate 4 – midt i byens gågate.
+                Hudlegekontoret ligger i Sigurdsgate 4 - midt i byens gågate.
                 Inngang nedenfor Apotek 1.
             </p>
             <div @click="mapClick">
