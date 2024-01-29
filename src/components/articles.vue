@@ -81,7 +81,7 @@
                 <h3>Avbestilling av time</h3>
                 <p>
                     Vær oppmerksom på at avbestilling må gjøres senest 24 timer før avtalt time 
-                    på tlf 33 18 15 12 mellom kl 9:00 og 11:00 eller på mail; post@rakovan.nhn.no 
+                    på tlf 33 18 15 12 mellom kl 9:00 og 11:00 eller på mail; post@hudlegerakovan.no 
                     før kl 15:00 to virkedager før timeavtalen
                 </p>
             </div>
