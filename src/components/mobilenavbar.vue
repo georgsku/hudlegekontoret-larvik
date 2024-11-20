@@ -7,15 +7,18 @@
     </div>
 </template>
 
+<!-- eslint-disable vue/multi-word-component-names -->
 <script>
+
 export default {
-  data () {
-    return {
-      showNavbar: true,
-      pastHeader: false,
-      lastScrollPosition: 0
-    }
-  },
+    name: "mobilenavbar",
+    data () {
+        return {
+            showNavbar: true,
+            pastHeader: false,
+            lastScrollPosition: 0
+        }
+    },
     methods: {
         onScroll () {
             const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
@@ -37,13 +40,14 @@ export default {
             document.getElementById(element).scrollIntoView({behavior: "smooth", block: "center",});
         },
         openSidebar() {
-            this.$root.$refs.sidebar.toggleSidebar();
+            this.emitter.emit("toggle-sidebar");
         }
+
     },
     mounted () {
             window.addEventListener('scroll', this.onScroll)
-        },
-    beforeDestroy () {
+    },
+    beforeUnmount () {
         window.removeEventListener('scroll', this.onScroll)
     },
 }

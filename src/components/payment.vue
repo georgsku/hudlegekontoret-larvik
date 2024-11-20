@@ -3,7 +3,7 @@
         <div class="introtext">
             <h3>Betaling</h3>
             <p>
-                Egenandel er kr. 386,-<br>
+                Egenandel er kr. 403,-<br>
                 Barn under 16 år betaler ingen egenandel.<br>
                 Frikort gjelder.
             </p>
@@ -20,6 +20,7 @@
     </div>
 </template>
 
+<!-- eslint-disable vue/multi-word-component-names -->
 <script>
 export default {
     name: "introtext"

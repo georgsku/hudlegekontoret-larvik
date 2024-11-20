@@ -19,13 +19,16 @@
         </transition>
     </div>
 </template>
+
+<!-- eslint-disable vue/multi-word-component-names -->
 <script>
     export default {
+        name: "sidebar",
         data: () => ({
             isPanelOpen: false
         }),
-        created() {
-            this.$root.$refs.sidebar = this;
+        mounted() {
+            this.emitter.on("toggle-sidebar", this.toggleSidebar);
         },
         methods: {
             closeSidebarPanel() {

@@ -62,7 +62,7 @@
                     Alle pasienter som skal ha lysbehandling må ha henvisning fra lege.
                 </p>
                 <p> 
-                    Det koster kr.61,- pr behandling inntil frikort er oppnåd.<br>
+                    Det koster kr.64,- pr behandling inntil frikort er oppnåd.<br>
                     Pasienter til lysbehandling tas imot i kontorets åpningstid. <br>
                     Vi holder stengt for lysbehandling i lunsjen (kl 11:30 - 12:00). <br>
                     <strong>OBS:</strong> oppmøte senest 15 min før stengetid
@@ -82,7 +82,8 @@
                 <p>
                     Vær oppmerksom på at avbestilling må gjøres senest 24 timer før avtalt time 
                     på tlf 33 18 15 12 mellom kl 9:00 og 11:00 eller på mail; post@hudlegerakovan.no
-                    før kl 15:00 to virkedager før timeavtalen
+                    før kl 15:00 to virkedager før timeavtalen.
+                    Ved manglende oppmøte faktureres 421,-.
                 </p>
             </div>
         </div>
@@ -90,6 +91,7 @@
     </div>
 </template>
 
+<!-- eslint-disable vue/multi-word-component-names -->
 <script>
 export default {
     name: 'articles'

@@ -12,8 +12,10 @@
     </div>
 </template>
 
+<!-- eslint-disable vue/multi-word-component-names -->
 <script>
 export default {
+    name: "navbar",
   data () {
     return {
       showNavbar: true,
@@ -45,7 +47,7 @@ export default {
     mounted () {
             window.addEventListener('scroll', this.onScroll)
         },
-    beforeDestroy () {
+    beforeUnmount () {
         window.removeEventListener('scroll', this.onScroll)
     },
 }
