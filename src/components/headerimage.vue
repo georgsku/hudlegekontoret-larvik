@@ -1,6 +1,6 @@
 <template>
   <div class="header-container">
-    <h1 id='headline'>Hudlegekontoret i Larvik</h1>
+    <h1 id='headline'>Hudlegeklinikken</h1>
     <h2 id="subHeadline" v-html="'Dr. Na&#271;a Rakovan PhD'"></h2>
   </div>
 </template>

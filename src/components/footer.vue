@@ -1,9 +1,10 @@
 <template>
-     <div class="footer">
+     <div class="footer" >
         <iframe
             title="googlemaps"
             id="googlemaps"
             class="google-map"
+            style="display: none;"
             width="500"
             height="350"
             frameborder="0"
@@ -13,7 +14,7 @@
         <div class="footer-text">
             <h3><span style="font-weight: 100;">Na&#271;a</span><span style="font-weight: 600;">Rakovan</span></h3>
             <p>Tlf: 33 18 15 12</p>
-            <p>Sigurds gate 4, 3256 Larvik</p>
+            <p>Thor Dahls gate 1, 3210 Sandefjord</p>
         </div>
     </div>
 </template>
