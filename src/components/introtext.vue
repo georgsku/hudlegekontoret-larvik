@@ -1,6 +1,12 @@
 <template>
     <div class="wrapper margin-100" id="introtext">
         <div class="introtext">
+            <h3>Julen 2025</h3>
+            <p>
+                Hudlegeklinikken har har stengt i julen og åpner igjen 5. januar 2026 <br>
+                Vi ønsker alle en <b>GOD</b> jul og <b>GODT</b> nytt år!
+            </p>
+
             <h3 class="seperate-header">Om oss</h3>
             <p>Hudlegeklinikken, tidligere hudlegekontoret i Larvik, har flyttet til Sandefjord, Thor Dahls gate 1.</p>
             <p>Hudlegeklinikken drives av hudlege Na&#271;a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
