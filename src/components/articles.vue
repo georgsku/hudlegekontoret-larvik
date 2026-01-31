@@ -1,5 +1,24 @@
 <template>
+    <br>
     <div class="container">
+        <div class="wrapper" id="introtext">
+            <div class="wrapper-text">    
+                <h3 class="seperate-header">Om oss</h3>
+                <p>Hudlegeklinikken drives av hudlege Na&#271;a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
+                    Vi utreder og behandler alle slags hudsykdommer. 
+                    Praksisen har blant annet lysbehandling (smalspektret UVB - TL01) for helkropp, hender, 
+                    føtter og fotodynamisk behandling (PDT).
+                </p>
+                <p>
+                    Hudlegeklinikken ligger Thor Dahls gate 1, oppgang e i Sandefjord.
+                </p>
+
+            </div>
+            
+            <div class="wrapper-image">
+                <img class="image" src="../assets/inngang.png" alt="">
+            </div>
+        </div>
         <div class="border"/>
         <div class="wrapper" id="timebestillinger">
             <div class="wrapper-text">    
@@ -64,7 +83,7 @@
                 <p> 
                     Det koster kr.64,- pr behandling inntil frikort er oppnåd.<br>
                     Pasienter til lysbehandling tas imot i kontorets åpningstid. <br>
-                    Vi holder stengt for lysbehandling i lunsjen (kl 11:30 - 12:00). <br>
+                    Vi holder stengt for lysbehandling i lunsjen (kl 11:15 - 12:00). <br>
                     <strong>OBS:</strong> oppmøte senest 15 min før stengetid
                 </p>
             </div>

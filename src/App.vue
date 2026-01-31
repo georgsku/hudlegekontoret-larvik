@@ -14,7 +14,6 @@
 <script>
 import Mobilenavbar from './components/mobilenavbar.vue'
 import Headerimage from './components/headerimage.vue'
-import Introtext from './components/introtext.vue'
 import Articles from  './components/articles.vue'
 import Payment from './components/payment.vue'
 import Sidebar from './components/sidebar.vue'
@@ -26,7 +25,6 @@ export default {
   components: {
     Mobilenavbar,
     Headerimage,
-    Introtext,
     Articles,
     Payment,
     Sidebar,

@@ -3,7 +3,7 @@
         <div class="introtext">
             <h3>Betaling</h3>
             <p>
-                Egenandel er kr. 403,-<br>
+                Egenandel er kr. 443,-<br>
                 Barn under 16 år betaler ingen egenandel.<br>
                 Frikort gjelder.
             </p>
@@ -12,9 +12,9 @@
                 Gebyr for ikke benyttet time gjelder også barn og personer med frikort.
             </p>
             <p>
-                Vennligst unngå betaling med kontanter. Betaling med kort er ønskelig. <br>
+                Vennligst unngå betaling med kontanter. Betaling med kort og Vipps er ønskelig. <br>
                 Vi har bankterminal, men tar ikke kredittkort. <br>
-                Girobetaling belastes med gebyr og administreres av Convene Collection.
+                Girobetaling belastes med gebyr og administreres av CrediCare.
             </p>
         </div>
     </div>
