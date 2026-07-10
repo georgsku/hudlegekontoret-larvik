@@ -3,6 +3,12 @@
     <div class="container">
         <div class="wrapper" id="introtext">
             <div class="wrapper-text">    
+                <h3>Sommer 2026</h3>
+                <p>
+                    Hudlegekontoret har sommerstengt uke 29, 30, 31 og 32. <br>
+                    Vi ønsker alle en <b>GOD</b> Sommer
+                </p>
+                
                 <h3 class="seperate-header">Om oss</h3>
                 <p>Hudlegeklinikken drives av hudlege Na&#271;a Rakovan. Hun er spesialist i hud- og veneriske sykdommer. <br>              
                     Vi utreder og behandler alle slags hudsykdommer. 
@@ -10,7 +16,7 @@
                     føtter og fotodynamisk behandling (PDT).
                 </p>
                 <p>
-                    Hudlegeklinikken ligger Thor Dahls gate 1, oppgang e i Sandefjord.
+                    Hudlegeklinikken ligger Thor Dahls gate 1, oppgang E i Sandefjord.
                 </p>
 
             </div>
